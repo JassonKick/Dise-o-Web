@@ -1,0 +1,131 @@
+/* div general*/
+.home{
+    background: linear-gradient(250deg,#b21c9e,#c9a9c6,#9d1892);
+}
+
+/*tarjetas de al medio*/
+.contenedor{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;;
+    justify-items: center;
+    display: flex; 
+}
+.contenedoritems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-auto-columns: max-content;
+    grid-row-gap: 50px;
+    width: 100%;
+    transition: .3s;
+    padding-top:50px ;
+}
+
+.items{
+    margin-left: 80px;
+    margin-right: 50px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+    
+}
+
+.items:hover{
+    scale: 1.05;
+}
+
+.imgitem{
+    width: 100%;
+    height: 50%;    
+}
+
+.tituloitem{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.precioitem{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: auto;
+}
+.botonitem{
+    display: block;
+    margin: 10px auto;
+    border:none;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* css del footer
+
+footer{
+    position:absolute;
+    padding: 1 em 0;
+    bottom: 0%;
+    width: 100%;
+}
+
+.logo2{
+    border-radius: 80%;
+    border: 5px solid white;
+    margin-left: -100px;
+}
+
+.bg-dark .telefono{
+    display: flex;
+}
+
+.bg-dark .telefono p{
+    color: whitesmoke;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.rating input{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.rating input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 34px;
+    color: #111;
+    transition: .5s;
+}
+
+.rating input:hover ~ input::before,
+.rating input:hover::before,
+.rating input:checked ~ input::before,
+.rating input:checked::before
+{
+    color: var(--c);
+
+}
+*/
